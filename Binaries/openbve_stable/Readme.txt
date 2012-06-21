@@ -1,4 +1,4 @@
-﻿================
+================
 openBVE - Readme
 ================
 
@@ -9,7 +9,7 @@ Getting started
 
 If you have problems getting openBVE to run, make sure that you have read the installation instructions located at:
 
-http://trainsimframework.org/use/index.html
+http://www.openbve.org/installUse
 
 These pages also include driving guides, an overview of the default keyboard assignment, as well as a troubleshooting section.
 
@@ -32,13 +32,13 @@ The specified file describes the file system organization. See the Install and P
 Links
 -----
 
-Official homepage:
-http://trainsimframework.org/
+Community Homepage:
+www.openbve.org
 
-Official discussion board:
-http://openbve.freeforums.org/
+Odakyufan's provisional homepage:
+http://odakyufan.zxq.net/
 
-Please note that support is only offered for distributions that were downloaded from the official homepage, and only for the latest versions available there.
+Please note that odakyufan's support is only offered for distributions that were downloaded from odakyufan's page. Distributions from the community homepage are supported by the community.
 
 
 ----------

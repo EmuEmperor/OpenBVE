@@ -1,4 +1,4 @@
-﻿=================
+=================
 openBVE - Credits
 =================
 
@@ -22,13 +22,7 @@ odakyufan - Additional programming, feedback and testing
 Homepage
 --------
 
-michelle - Homepage content
-
-Anthony Bowden (Anthony_B) - Current hosting solution
-
-Steve Green (wumpty) - Former hosting solution
-
-
+The homepage is currently hosted by several community members, which covers a broad range of topics which odakyufan's provisional OpenBVE page lacks.
 
 ---------
 Packagers

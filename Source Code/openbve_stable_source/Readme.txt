@@ -1,4 +1,4 @@
-﻿============================
+============================
 openBVE Source Code - Readme
 ============================
 
@@ -7,12 +7,11 @@ openBVE Source Code - Readme
 Links
 -----
 
-Official homepage:
-http://trainsimframework.org/
+Community Homepage:
+www.openbve.org
 
-Official discussion board:
-http://openbve.freeforums.org/
-
+Odakyufan's provisional page:
+http://odakyufan.zxq.net/
 
 ----------
 No license
