@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0054)http://trainsimframework.org/develop/train_plugin.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type"><LINK rel="SHORTCUT ICON" 
+href="../common/favicon.png">
+<META name="keywords" content="openBVE,homepage"><TITLE>Train plugins</TITLE>
+<META name="GENERATOR" content="MSHTML 9.00.8112.16443"></HEAD>
+<BODY style="font-family: sans-serif; font-size: small;"><FONT color="#0080ff" 
+size="+2">Train plugins</FONT><BR>
+<TABLE style="border: 0px currentColor; margin-right: 10pt; margin-left: 10pt;">
+  <TBODY>
+  <TR>
+    <TD><FONT color="#808080" size="-1"></FONT></TD></TR></TBODY></TABLE><BR>Train 
+plugins allow to change the runtime behavior of trains to some degree. Things 
+you can do include displaying custom indicators in the panels, playing custom 
+sounds and overriding the handles the driver originally set. Plugins can be used 
+to simulate safety equipment such as ATS or ATC, among other things.<BR><BR>
+<TABLE>
+  <TBODY>
+  <TR style="height: 4px;">
+    <TD></TD></TR></TBODY></TABLE><FONT color="#0080ff" size="+1">■ Available forms 
+of plugins</FONT>
+<HR>
+
+<TABLE style="border: 0px currentColor; margin-right: 10pt; margin-left: 10pt;">
+  <TBODY>
+  <TR>
+    <TD><FONT color="#808080" size="-1"></FONT></TD></TR></TBODY></TABLE><BR><A 
+href="http://trainsimframework.org/develop/plugin_overview.html"><B>.NET 
+assemblies:</B></A><BR>This is the only officially endorsed form of plugin. The 
+plugins are .NET assemblies and should be designed to be 
+cross-platform-compatible without recompilation. You can choose from a variety 
+of programming languages, including C# and Visual Basic .NET, among many others 
+that target the .NET Framework.<BR><BR><A href="http://trainsimframework.org/develop/train_plugin_legacy.html"><B>Win32 
+DLLs:</B></A><BR>This form of plugin is retained for backward compatibility with 
+BVE Trainsim, but is no longer officially endorsed because these plugins can 
+only run on Microsoft Windows. They are usually developed in C/C++. Given the 
+cross-platform alternative, please develop .NET assemblies from now on.<BR><BR>
+<TABLE>
+  <TBODY>
+  <TR style="height: 4px;">
+    <TD></TD></TR></TBODY></TABLE><FONT color="#0080ff" size="+1">■ Setting up a 
+train to using a plugin</FONT>
+<HR>
+
+<TABLE style="border: 0px currentColor; margin-right: 10pt; margin-left: 10pt;">
+  <TBODY>
+  <TR>
+    <TD><FONT color="#808080" size="-1"></FONT></TD></TR></TBODY></TABLE>You will 
+need to ship the plugin somewhere in your train folder and configure the path to 
+your plugin inside the <A href="http://trainsimframework.org/develop/train_ats_cfg.html">ats.cfg</A> 
+file. Please note that for .NET assembly train plugins, you should <B>not</B> 
+ship OpenBveApi.dll along with your plugin.</BODY></HTML>
